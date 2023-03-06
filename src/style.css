@@ -1,6 +1,44 @@
 .background_color {
-    background-color: hsl(158, 36%, 37%);
+    background-color: hsl(32, 37%, 92%);
     height: 100%;
     width: 100%;
-    display: absolute;
+}
+
+.card {
+    display: grid;
+    width: 650px;
+    height: 550px;
+    grid-template-columns: 1fr 195px 130px;
+    grid-template-rows: 70px 145px 130px 80px 1fr;
+    grid-template-areas:
+        "img logo ."
+        "img title title"
+        "img descri descri"
+        "img price old_price"
+        "img cart cart";
+    background-color: white;
+}
+
+.card_img {
+    grid-area: img;
+}
+
+.Item_title {
+    grid-area: title;
+}
+
+.Item_descrition {
+    grid-area: descri;
+}
+
+.price {
+    grid-area: price;
+}
+
+.old_price {
+    grid-area: old_price;
+}
+
+.add_cart {
+    grid-area: cart;
 }
