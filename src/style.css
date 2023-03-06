@@ -1,0 +1,6 @@
+.background_color {
+    background-color: hsl(158, 36%, 37%);
+    height: 100%;
+    width: 100%;
+    display: absolute;
+}
