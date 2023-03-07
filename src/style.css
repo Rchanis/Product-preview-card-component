@@ -6,7 +6,8 @@
 
 .card {
     display: grid;
-    width: 650px;
+    border: 2px solid black;
+    width: 691px;
     height: 550px;
     grid-template-columns: 1fr 195px 130px;
     grid-template-rows: 70px 145px 130px 80px 1fr;
@@ -17,10 +18,13 @@
         "img price old_price"
         "img cart cart";
     background-color: white;
+    border-radius: 10px;
 }
 
 .card_img {
     grid-area: img;
+    max-width: 100%;
+    height: auto;
 }
 
 .Item_title {
