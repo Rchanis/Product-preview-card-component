@@ -31,7 +31,8 @@
 
 .logo {
     font-weight: 500;
-
+    padding-left: 42px;
+    padding-top: 30px;
 }
 
 .Item_title {
@@ -52,6 +53,7 @@
 .price {
     grid-area: price;
     padding-left: 42px;
+    font-size: 35px;
     font-family: 'Fraunces', serif;
 }
 
@@ -71,4 +73,10 @@ hr {
 
 .add_cart {
     grid-area: cart;
+    border: 2px solid black;
+    width: 241px;
+    height: 55px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
 }
