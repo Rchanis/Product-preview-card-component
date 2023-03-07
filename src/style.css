@@ -6,7 +6,6 @@
 
 .card {
     display: grid;
-    border: 2px solid black;
     width: 691px;
     height: 550px;
     grid-template-columns: 1fr 195px 130px;
@@ -21,6 +20,7 @@
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     position: relative;
+    color: hsl(228, 12%, 48%);
 }
 
 .card_img {
@@ -40,6 +40,7 @@
     padding: 0px 42px;
     font-size: 35px;
     font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
 }
 
 .Item_descrition {
@@ -55,6 +56,7 @@
     padding-left: 42px;
     font-size: 35px;
     font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
 }
 
 .old_price {
@@ -67,13 +69,9 @@
     font-family: 'Fraunces', serif;
 }
 
-hr {
-    border: 2px solid black;
-}
-
 .add_cart {
     grid-area: cart;
-    border: 2px solid black;
+
     width: 241px;
     height: 55px;
     border-radius: 10px;
@@ -82,4 +80,6 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
 }
