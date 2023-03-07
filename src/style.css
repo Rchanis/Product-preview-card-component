@@ -79,4 +79,7 @@ hr {
     border-radius: 10px;
     margin: auto;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
