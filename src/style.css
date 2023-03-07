@@ -19,6 +19,8 @@
         "img cart cart";
     background-color: white;
     border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 .card_img {
@@ -27,20 +29,44 @@
     height: auto;
 }
 
+.logo {
+    font-weight: 500;
+
+}
+
 .Item_title {
     grid-area: title;
+    padding: 0px 42px;
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
 }
 
 .Item_descrition {
     grid-area: descri;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 42px;
+    font-size: 14px;
+    line-height: 2;
 }
 
 .price {
     grid-area: price;
+    padding-left: 42px;
+    font-family: 'Fraunces', serif;
 }
 
 .old_price {
     grid-area: old_price;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: 'Fraunces', serif;
+}
+
+hr {
+    border: 2px solid black;
 }
 
 .add_cart {
