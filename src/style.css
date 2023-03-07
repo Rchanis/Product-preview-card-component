@@ -1,7 +1,18 @@
-.background_color {
-    background-color: hsl(32, 37%, 92%);
+html {
+    height: 100%;
+}
+
+body {
     height: 100%;
     width: 100%;
+}
+
+.background_color {
+    background-color: hsl(30, 38%, 92%);
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -16,7 +27,7 @@
         "img descri descri"
         "img price old_price"
         "img cart cart";
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     position: relative;
@@ -27,6 +38,9 @@
     grid-area: img;
     max-width: 100%;
     height: auto;
+    border-radius: 10px 0 0 10px;
+    background-image: url(../images/image-product-desktop.jpg);
+    background-size: 100% 100%;
 }
 
 .logo {
