@@ -61,12 +61,10 @@
 
 .old_price {
     grid-area: old_price;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-family: 'Fraunces', serif;
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 5px;
+    text-decoration: line-through;
 }
 
 .add_cart {
